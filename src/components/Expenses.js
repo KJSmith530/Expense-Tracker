@@ -1,6 +1,6 @@
 import ExpenseItem from "./ExpenseItem";
 
-function Expenses() {
+function Expenses({ expenses }) {
   return (
     <div>
       <ExpenseItem
